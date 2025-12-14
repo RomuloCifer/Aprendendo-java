@@ -10,7 +10,7 @@ public class CaixinhaDeSom {
         System.out.print("Qual seu nome? ");
         String nome = leitor.nextLine();
 
-        System.out.println("Olá" + nome + " o que gostaria de ouvir hoje?");
+        System.out.println("Olá " + nome + " o que gostaria de ouvir hoje?");
         System.out.println("1 - Rock");
         System.out.println("2 - Funk");
         System.out.println("3 - Classica");
@@ -22,17 +22,20 @@ public class CaixinhaDeSom {
     }
 }
 class DJ {
+    ArrayList<String> playlist;
+    public DJ() {
+        playlist = new ArrayList<>();
+        playlist.add("Rock - Tocando Galinha pintadinha - versão rock");
+        playlist.add("FUNK - Tocando Baby shark - versão funk");
+        playlist.add("Clássica - Tocando Gaiola das poposudas");
+    }
     public void SoltarOSom(int NumeroEscolhido) {
         System.out.println("------------------ ");
-        if (NumeroEscolhido == 1) {
-            System.out.println("Rock - Tocando Galinha pintadinha - versão rock");
-        } else if (NumeroEscolhido == 2) {
-            System.out.println("FUNK - Tocando Baby shark - versão funk");
-        } else if (NumeroEscolhido == 3) {
-            System.out.println("Clássica - Tocando Gaiola das poposudas");
-        } else {
-            System.out.println("Opção inválida, escolha 1, 2 ou 3.");
-        }
+        int numeroReal = NumeroEscolhido -1;
+        if (numeroReal >= 0 && numeroReal < playlist.size());
+        System.out.print(playlist.get(numeroReal));
+        
         System.out.print("------------------");
     }
 }
+

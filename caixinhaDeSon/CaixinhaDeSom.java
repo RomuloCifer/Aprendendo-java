@@ -42,7 +42,7 @@ class DJ {
     public void soltarOSom(int NumeroEscolhido) {
         System.out.println("------------------ ");
         int numeroReal = NumeroEscolhido -1;
-        if (numeroReal >= 0 && numeroReal < playlist.size());
+        if (numeroReal >= 0 && numeroReal < playlist.size())
         System.out.print(playlist.get(numeroReal));
         
         System.out.println("------------------");

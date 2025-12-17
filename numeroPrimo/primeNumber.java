@@ -1,7 +1,7 @@
 public class primeNumber {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        if (calc.ehPrimo(79)) {
+        if (calc.ehPrimo(80)) {
             System.out.println("É primo sim :D");
         } else {
             System.out.println("É primo não :C");
@@ -10,7 +10,7 @@ public class primeNumber {
 }
 class Calculadora {
     public boolean ehPrimo(int numero) {
-        if (numero <= 1) {
+        if (numero <= 1 || numero % 2 == 0) {
             return false;
         }
         for (int n = 2; n < numero; n++) {

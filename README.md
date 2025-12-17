@@ -10,6 +10,7 @@ Cada pasta contém um mini-projeto ou exercício independente:
 - **ChecarProteinaEmDNA/** - Verificação de proteínas em sequências de DNA
 - **FizzBuzz/** - Implementação do clássico FizzBuzz
 - **numeroPrimo/** - Verificação de números primos
+- **SimuladorDado/** - Simulador de lançamento de dados com estatísticas
 
 ## Sobre
 

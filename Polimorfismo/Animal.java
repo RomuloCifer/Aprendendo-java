@@ -1,7 +1,11 @@
 package Polimorfismo;
 
 public class Animal {
-    public void sound() {
-        System.out.println("Animal sound");
+    protected String nomeAnimal;
+    public Animal(String nome) {
+        nomeAnimal = nome;
+    }
+    public void som() {
+        System.out.println("Som de animal");
     }
 }

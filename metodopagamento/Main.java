@@ -2,9 +2,9 @@ package metodopagamento;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("╔═══════════════════════════════════════════╗");
-        System.out.println("║     SISTEMA DE PAGAMENTOS - JAVA          ║");
-        System.out.println("╚═══════════════════════════════════════════╝");
+        System.out.println("╔═════════════════════════════╗");
+        System.out.println("║ SISTEMA DE PAGAMENTOS - JAVA║");
+        System.out.println("╚═════════════════════════════╝");
         System.out.println();
         
         // Compra 1 - Pagamento via PIX
@@ -19,8 +19,8 @@ public class Main {
         System.out.println(sofaCompra.generateReceipt());
         System.out.println();
         
-        System.out.println("═══════════════════════════════════════════");
-        System.out.println("          Obrigado por sua compra!         ");
-        System.out.println("═══════════════════════════════════════════");
+        System.out.println("════════════════════════");
+        System.out.println(" Obrigado por sua compra!");
+        System.out.println("════════════════════════");
     }
 }

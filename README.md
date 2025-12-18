@@ -9,7 +9,9 @@ Cada pasta contém um mini-projeto ou exercício independente:
 - **caixinhaDeSon/** - Projeto relacionado a áudio/som
 - **ChecarProteinaEmDNA/** - Verificação de proteínas em sequências de DNA
 - **FizzBuzz/** - Implementação do clássico FizzBuzz
+- **metodopagamento/** - Sistema de pagamentos com POO (classes abstratas, polimorfismo e herança)
 - **numeroPrimo/** - Verificação de números primos
+- **Polimorfismo/** - Exemplos de polimorfismo com animais
 - **SimuladorDado/** - Simulador de lançamento de dados com estatísticas
 
 ## Sobre

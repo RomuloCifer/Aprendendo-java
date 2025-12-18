@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-class Gato extends Animal{
+public class Gato extends Animal{
     public Gato (String nome) {
         super(nome);
     }
@@ -8,4 +8,12 @@ class Gato extends Animal{
     public void som() {
         System.out.println(this.nomeAnimal + " mia");
     }
+    @Override
+    public void mostrarNome() {
+        System.out.println(pegarNome());
+    }
+    @Override
+    public String pegarNome() {
+        return nomeAnimal;
+    };
 }

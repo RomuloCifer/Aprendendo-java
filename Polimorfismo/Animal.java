@@ -1,11 +1,12 @@
 package Polimorfismo;
 
-public class Animal {
+public abstract class Animal {
     protected String nomeAnimal;
+
     public Animal(String nome) {
         nomeAnimal = nome;
     }
-    public void som() {
-        System.out.println("Som de animal");
-    }
+    public abstract void som();
+    public abstract String pegarNome();
+    public abstract void mostrarNome();
 }
